@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
 import os
 
-GEMINI_API_KEY = "AIzaSyDvLY-hxVAX9QdZd9mYPKe3nVGB31IA93c"
+GEMINI_API_KEY = "your_actual_api_key"
 
 client = OpenAI(
     api_key=GEMINI_API_KEY,
