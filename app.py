@@ -6,7 +6,7 @@ GEMINI_API_KEY = "your_actual_api_key"
 
 client = OpenAI(
     api_key=GEMINI_API_KEY,
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    base_url="your base_url"
 )
 
 app = Flask(__name__)
